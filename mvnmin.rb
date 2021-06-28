@@ -6,7 +6,7 @@ class Mvnmin < Formula
   desc "mvnmin - minimal maven builds"
   homepage "https://github.com/elasticpath/mvnmin"
   url "https://github.com/elasticpath/mvnmin/releases/download/mvnmin-#{MVNMIN_VERSION}/mvnmin-#{MVNMIN_VERSION}.zip"
-  sha256 "4010c83cad1feeb36e437e7a869fb3603e31fcbc"
+  sha256 "f52c00062e76f6fbe8d34692990d203a88948fd44d22bfd70e549f52fba5e5ec"
   head "git@github.com:elasticpath/mvnmin.git"
 
   def install
