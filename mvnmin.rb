@@ -2,11 +2,11 @@
 require "formula"
 
 class Mvnmin < Formula
-  MVNMIN_VERSION = "1.0.1"
+  MVNMIN_VERSION = "1.0.2"
   desc "mvnmin - minimal maven builds"
   homepage "https://github.com/elasticpath/mvnmin"
   url "https://github.com/elasticpath/mvnmin/releases/download/mvnmin-#{MVNMIN_VERSION}/mvnmin-#{MVNMIN_VERSION}.zip"
-  sha256 "f52c00062e76f6fbe8d34692990d203a88948fd44d22bfd70e549f52fba5e5ec"
+  sha256 "246b24e1484b926313185935e6feb02e68fc52f639318dc51513c91fba72085c"
   head "git@github.com:elasticpath/mvnmin.git"
 
   def install
